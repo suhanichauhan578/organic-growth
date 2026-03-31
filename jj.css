@@ -1,6 +1,5 @@
 /* Basic reset and font settings */
 body {
-    overflow-x:hidden;
     margin: 0;
     font-family: sans-serif;
     background-color: #f0f0f0;
