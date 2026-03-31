@@ -41,4 +41,35 @@ img {
     font-size: 14px;
   }
 
+}/* Responsive fixes */
+
+body {
+  overflow-x: hidden;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav a {
+  padding: 10px;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav a {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
 }
